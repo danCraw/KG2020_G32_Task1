@@ -6,9 +6,8 @@ import java.awt.*;
 public class MainWindow extends JFrame {
 
     public MainWindow() throws HeadlessException {
-       DrawPanel dp = new DrawPanel();
+        DrawPanel dp = new DrawPanel();
 //       Sunset dp = new Sunset();
         this.add(dp);
     }
-
 }
